@@ -60,6 +60,11 @@
     margin-bottom: 6px;
 }
 
+.card-star img {
+    width: auto;
+    height: 50%;
+}
+
 .form {
     background-color: #000000;
 }
