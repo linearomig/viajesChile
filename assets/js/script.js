@@ -18,5 +18,5 @@ $(function(){
     //Añadir tooltip con nombre de las RRSS en los íconos
     $('[data-toggle="tooltip"]').tooltip()
 
-  });
+});
 

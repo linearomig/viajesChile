@@ -17,14 +17,15 @@ body {
     color: #ffffff;
 }
 
-.navbar{
+.navbar {
     position: fixed;
-    margin-top: -14rem;
 }
 
-.navbar-brand svg {
-    width: 2rem;
+.navbar-brand img {
+    width: 5%;
+    height: auto;
 }
+
 .carousel-inner img {
     width: 100%;
 }
