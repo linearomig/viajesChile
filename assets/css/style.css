@@ -1,0 +1,74 @@
+.body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 300;
+}
+
+.nav-link {
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.navbar{
+    position: fixed;
+    margin-top: -14rem;
+    
+}
+
+.navbar-brand svg {
+    width: 2rem;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.somos {
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.quien, .dest, .cont {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.somos-col {
+    padding-top: 50px
+}
+
+.somos-text {
+    margin-top: 10px;
+}
+
+.icon {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.star {
+    background-color: #000000;
+}
+
+.card-star {
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+
+.form {
+    background-color: #000000;
+}
+
+.footer {
+    padding: 10px 50px 15px 50px;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 2rem;
+}
