@@ -1,3 +1,13 @@
+    //Añadir fondo de color al nav cuando se desplaza
+$(window).scroll(function(){
+  if($(this).scrollTop() > 50){
+    $('#menu').addClass('active');
+  }
+  else{
+    $('#menu').removeClass('active');
+  }
+});
+
 $(function(){
     // Smooth Scrolling a los links
     $("a").click(function(event) {
@@ -19,4 +29,6 @@ $(function(){
     $('[data-toggle="tooltip"]').tooltip()
 
 });
+
+
 

@@ -26,6 +26,16 @@ body {
     height: auto;
 }
 
+nav.active{
+    background-color: white;
+}
+
+nav.active .navbar-brand,
+nav.active a{
+   color: #17a2b8 !important; 
+}
+
+
 .carousel-inner img {
     width: 100%;
 }
@@ -64,12 +74,16 @@ body {
     margin-bottom: 6px;
 }
 
+.card img {
+ max-height: 150px;
+}
+
 .card-body {
     padding-bottom: 30px;
 }
 
-.card-star img {
-    object-fit: contain;
+.card-title {
+    font-weight: 400;
 }
 
 .type {
